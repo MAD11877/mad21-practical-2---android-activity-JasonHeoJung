@@ -21,12 +21,12 @@ public class MainActivity extends AppCompatActivity {
             @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View view){
-                if (!user1.followed){
-                    follow.setText("follow");
+                if (user1.followed == false){
+                    follow.setText("unfollow");
                     user1.followed = true;
                 }
                 else {
-                    follow.setText("unfollow");
+                    follow.setText("follow");
                     user1.followed = false;
                 }
             }

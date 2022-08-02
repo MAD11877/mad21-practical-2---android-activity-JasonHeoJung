@@ -5,4 +5,6 @@ public class user {
     public String description;
     public int id;
     public boolean followed;
+
+
 }
